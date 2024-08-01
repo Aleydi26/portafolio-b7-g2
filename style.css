@@ -1,7 +1,50 @@
+*{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.custom-font{
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.barra{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
 #presentacion {
     height: 88vh;
     display: flex;
     justify-content: start;
     align-items: center;
+
+    background-image: url("imagenes/fondo3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
+.proyecto {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-1 {
+    background-image: url('imagenes/clon\ de\ google.jpeg');
+}
+
+#proyecto-2 {
+    background-image: url('imagenes/diseño1.avif');
+}
+
+
+.text-shadow-1 {
+    text-shadow: 1px -1px 8px rgba(0, 0, 0, 1);
+}
