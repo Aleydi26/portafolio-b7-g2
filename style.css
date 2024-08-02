@@ -18,33 +18,56 @@
   }
 
 #presentacion {
-    height: 88vh;
+    height: 98vh;
     display: flex;
     justify-content: start;
     align-items: center;
 
-    background-image: url("imagenes/fondo3.png");
+    background-image: url("imagenes/fondo5.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+}
+#testimonios{
+    height: 98vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
-.proyecto {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
 
 #proyecto-1 {
-    background-image: url('imagenes/clon\ de\ google.jpeg');
+    background-image: url('imagenes/modulo.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
 }
 
 #proyecto-2 {
-    background-image: url('imagenes/diseño1.avif');
+    background-image: url('imagenes/foto.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
+#proyecto-3 {
+    background-image: url('imagenes/foto.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .text-shadow-1 {
     text-shadow: 1px -1px 8px rgba(0, 0, 0, 1);
+}
+
+.custom-black {
+    color: black; /* Color del texto */
+    border-color: black; /* Color del borde */
+}
+
+.custom-black-btn:hover {
+    background-color: #333; /* Color de fondo al pasar el ratón */
+    border-color: #333; /* Color del borde al pasar el ratón */
 }

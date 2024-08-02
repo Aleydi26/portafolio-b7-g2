@@ -45,9 +45,9 @@
 
     </nav>
     <!-- Cambio de color a la barra -->
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <nav class="navbar fixed-top bg-dark border-bottom border-body" data-bs-theme="dark">
       <!-- Navbar content -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand barra" href="#">Aleydi</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -57,16 +57,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active barra" aria-current="page" href="#">Habilidades</a>
+                <a href=" #habilidades " class="nav-link active barra" aria-current="page" href="#">Habilidades</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active barra" href="#">Proyectos</a>
+                <a href=" #proyectos" class="nav-link active barra" href="#">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active barra" href="#">Testimonios</a>
+                <a href=" #testimonios" class="nav-link active barra" href="#">Testimonios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active barra" href="#">Contacto</a>
+                <a href=" #contacto" class="nav-link active barra" href="#">Contacto</a>
               </li>
             </ul>
           </div>
@@ -84,13 +84,18 @@
     <section id="presentacion" class="container-fluid">
       <div class="class=" container my-5>
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-          <h1 class="display-4 fw-bold lh-1 custom-font">Aleydi López</h1>
-          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
-            popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <h1 class="display-4 fw-bold lh-1 custom-font" style="color: black;">Aleydi López</h1>
+          <p class="lead" style="color: black;"> ¡Hola! Soy diseñadora gráfica especializada en identidad
+            de marca. Transforma tus ideas en realidades visuales a través de la fotografía, el empaque y diseños
+            personalizados en productos. También creo páginas web impactantes que fortalecen tu presencia en línea.
+            Trabajo contigo para construir una marca memorable.
+          </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2 fw-bold">Contactame</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">aleydilopez26@gmail.com</button>
+            <a href="https://wa.me/qr/UCG3GWXIHQIOB1">
+              <button type="button" class="btn btn-outline-secondary custom-black btn-lg px-4">Contactame</button>
+            </a>
+            <button type="button"
+              class="btn btn-outline-secondary custom-black btn-lg px-4">aleydilopez26@gmail.com</button>
           </div>
         </div>
       </div>
@@ -142,13 +147,13 @@
 
     <!-- Proyectos -->
     <section id="proyectos" class="container px-4 py-5"> </section>
-    <h2 class="pb-2 border-bottom">Proyectos</h2>
+    <h1 class="pb-2 border-bottom text-center custom-font">Proyectos</h1>
 
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
       <div class="col">
         <div id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold custom-font text-center">Libreta</h3>
 
             <ul class="d-flex list-unstyled mt-auto">
               <li class="mx-auto">
@@ -165,7 +170,7 @@
       <div class="col">
         <div id="proyecto-2" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold custom-font text-center">Short title, long jacket</h3>
 
             <ul class="d-flex list-unstyled mt-auto">
               <li class="mx-auto">
@@ -182,7 +187,7 @@
       <div class="col">
         <div id="proyecto-3" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold custom-font text-center">Short title, long jacket</h3>
 
             <ul class="d-flex list-unstyled mt-auto">
               <li class="mx-auto">
@@ -204,6 +209,7 @@
 
     <!--Testimonios-->
     <section id="testimonios">
+      <h1 class="pb-2 border-bottom text-center custom-font">Testimonios</h1>
       <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
         <!-- son los puntos que permiten navegar por los elementos(las tres lineas de abajo)-->
         <div class="carousel-indicators">
@@ -221,7 +227,7 @@
           <div class="carousel-item active">
             <article class="container py-5 text-center px-5">
               <img class="rounded-5" src="imagenes/foto-ejecutivo1.jpeg" height="200px" alt="Ari lopez">
-              <h3 class="my-3">Ariana López</h3>
+              <h3 class="my-3 custom-font">Ariana López</h3>
               <p class="px-5">"Trabajar con Aleydi ha sido una experiencia excepcional. Su profesionalismo y atención al
                 detalle superaron nuestras expectativas, y los resultados han sido notables. Altamente recomendados para
                 cualquier proyecto."</p>
@@ -231,7 +237,7 @@
           <div class="carousel-item">
             <article class="container py-5 text-center px-5">
               <img class="rounded-5" src="imagenes/Pefil-Ejecutivo.jpg" height="200px" alt="Pamela">
-              <h3 class="my-3">Pamela Mendoza</h3>
+              <h3 class="my-3 custom-font">Pamela Mendoza</h3>
               <p class="px-5">"Trabajar con Aleydi ha sido una experiencia excepcional. Su profesionalismo y atención al
                 detalle superaron nuestras expectativas, y los resultados han sido notables. Altamente recomendados para
                 cualquier proyecto."</p>
@@ -241,7 +247,7 @@
           <div class="carousel-item">
             <article class="container py-5 text-center px-5">
               <img class="rounded-5" src="imagenes/perfil-ejecutivo 3.jpg" height="200px" alt="Alondra">
-              <h3 class="my-3">Alondra Villa</h3>
+              <h3 class="my-3 custom-font">Alondra Villa</h3>
               <p class="px-5">"Trabajar con Aleydi ha sido una experiencia excepcional. Su profesionalismo y atención al
                 detalle superaron nuestras expectativas, y los resultados han sido notables. Altamente recomendados para
                 cualquier proyecto."</p>
@@ -266,73 +272,42 @@
 
   </main>
 
-  <footer id="contacto" class="container">
-    <div class="py-5">
-      <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
+  <footer id="contacto" class="container-fluid bg-black" data-bs-theme="dark">
+    <div class="py-3">
 
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
+      <h6 class="text-center text-body-secondary mt-3 mb-">Contacto</h6>
+      <ul class="nav justify-content-center pb-1 mb-1">
+        <!-- instagram -->
+        <li class="nav-item">
+          <a href="https://www.instagram.com/dis_grafico_ale?igsh=b3RwMHl5aXpoOTNn" target="_blank"
+            class="nav-link px-2 text-body-secondary">
+            <i class="bi bi-instagram fs-4"></i>
+          </a>
+        </li>
+        <!-- Correo -->
+        <li class="nav-item">
+          <a href="aleydilopez26@gmail.com" target="_blank" class="nav-link px-2 text-body-secondary">
+            <i class="bi bi-envelope fs-4"></i>
+          </a>
+        </li>
+        <!-- whatsapp -->
+        <li class="nav-item">
+          <a href="https://wa.me/qr/UCG3GWXIHQIOB1" target="_blank" class="nav-link px-2 text-body-secondary">
+            <i class="bi bi-whatsapp fs-4"></i>
+          </a>
+        </li>
+        <!-- Github -->
+        <li class="nav-item">
+          <a href="https://github.com/Aleydi26/portafolio-b7-g2" target="_blank"
+            class="nav-link px-2 text-body-secondary">
+            <i class="bi bi-github fs-4"></i>
+          </a>
+        </li>
 
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
-
-        <div class="col-md-5 offset-md-1 mb-3">
-          <form>
-            <h5>Subscribe to our newsletter</h5>
-            <p>Monthly digest of what's new and exciting from us.</p>
-            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribe</button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>© 2024 Company, Inc. All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#twitter"></use>
-              </svg></a></li>
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#instagram"></use>
-              </svg></a></li>
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#facebook"></use>
-              </svg></a></li>
-        </ul>
-      </div>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Aleydi, TECHNOLOCHICAS PRO</p>
     </div>
   </footer>
-
-
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
