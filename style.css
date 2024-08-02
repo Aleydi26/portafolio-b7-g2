@@ -10,6 +10,7 @@
     font-style: normal;
 }
 
+
 .barra{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -27,12 +28,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-#testimonios{
-    height: 98vh;
-    display: flex;
-    justify-content: start;
-    align-items: center;
 }
 
 
