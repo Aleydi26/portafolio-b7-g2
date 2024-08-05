@@ -7,7 +7,7 @@ let typewriter = new Typewriter(app, {
 
 typewriter
     .pauseFor(2500) // milisegundos 2.5 segundos
-    .typeString('Aleydi Lopez')
+    .typeString('Aleydi López')
     .pauseFor(300)
     .deleteAll()
     .typeString('Diseñadora Grafica y Desarrolladora FONTEND JR')

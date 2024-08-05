@@ -1,8 +1,7 @@
-*{
-    font-family: "Nanum Myeongjo", serif;
-    font-weight: 400;
-    font-style: normal;
+.body{
+    background-color: white;
 }
+
 .custom-font{
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
@@ -32,7 +31,7 @@
 
 
 #proyecto-1 {
-    background-image: url('imagenes/modulo.jpeg');
+    background-image: url('imagenes/libreta/portada.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -40,10 +39,11 @@
 }
 
 #proyecto-2 {
-    background-image: url('imagenes/foto.JPG');
+    background-image: url('imagenes/calavera/expo.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
 
 #proyecto-3 {
@@ -66,3 +66,9 @@
     background-color: #333; /* Color de fondo al pasar el ratón */
     border-color: #333; /* Color del borde al pasar el ratón */
 }
+
+.icon-text {
+    font-size: 24px;
+    margin-right: 10px; 
+}
+
