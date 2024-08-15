@@ -5,7 +5,7 @@
 .custom-font{
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    
     font-style: normal;
 }
 
@@ -13,7 +13,6 @@
 .barra{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
   }
 
@@ -23,7 +22,7 @@
     justify-content: start;
     align-items: center;
 
-    background-image: url("imagenes/fondo5.jpg");
+    background-image: url("imagenes/fondo4.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -47,7 +46,7 @@
 }
 
 #proyecto-3 {
-    background-image: url('imagenes/foto.JPG');
+    background-image: url('imagenes/curso/logo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -72,3 +71,14 @@
     margin-right: 10px; 
 }
 
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: auto;
+    }
+}
